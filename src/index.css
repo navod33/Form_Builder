@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities; 
+
+
+body {
+  font-family: "Poppins", sans-serif;
+  background: #f3f4f6;
+  color: #111827;
+}
+
+.App{
+  text-align: center;
+}
+
+.App-header{
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  font-size: calc(10px + 2vmin);
+}
+
+
+.center-stepper{
+  display: flex;
+  justify-content: center;
+}
